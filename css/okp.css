@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #22313F;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.colorbar {
+	width: 100%;
+	background: linear-gradient(to right, #ff0000 0%,#ffff00 20%,#00ff00 40%,#00ffff 60%,#0000ff 80%,#7d00ff 100%); 
+	height: 5px;
+}
+
+.menu {
+	width: 100%;
+	background-color: #ECECEC;
+	display: block;
+	text-align: center;
+}
+.menuicon {
+	width: 25px;
+	height: 25px;
+}
+.menubutton {
+	font-size: 2em;
+	width: 24%;
+	padding: 25px 0;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+}
+.menubutton:hover {
+	background-color: #6C7A89;
+}
+ul {
+	list-style: none;
+}
+
+.intro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	font-size: 2em;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	background-color: #E14D4C;
+}
+
+.aboutMe {
+	height: 400px;
+	width: 100%;
+	background-color: #ECECEC;
+	display: block;
+	padding: 50px 0;
+
+}
+
+.aboutCard {
+	text-align: center;
+	height: 300px;
+	width: 600px;
+	border: 2px solid #22313F;
+	border-radius: 1%;
+	background-color: white;
+	margin: 0 auto;
+
+}
+h3 {
+	text-align: center;
+}
+.skills {
+	display: block;
+	padding: 40px 0px;
+	background-color: #3498DB;
+	margin: 0 auto;
+
+}
+.skillList {
+	width: 1280px;
+	margin: 0 auto;
+}
+.skillSet {
+	display: inline-block;
+}
+.skillicon {
+	height: 100px;
+	padding: 0 20px;
+}
+
+footer {
+	text-align: center;
+}
